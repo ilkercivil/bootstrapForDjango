@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="google.css">
+    <title>Google Search</title>
+</head>
+<body>
+    <div class="google-search-container">
+        <img src="google_logo.png" alt="Google Logo" class="google-logo">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Google'da Ara">
+            <div class="search-buttons">
+                <button class="search-button" onclick="performSearch()">Ara</button>
+                <button class="lucky-button" onclick="feelingLucky()">Kendimi Şanslı Hissediyorum</button>
+            </div>
+        </div>
+        <div id="searchResults"></div>
+    </div>
+
+    <script src="google.js"></script>
+</body>
+</html>

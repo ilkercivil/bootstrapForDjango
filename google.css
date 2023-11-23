@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Google'ın ana arka plan rengi */
+}
+
+.google-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.google-logo {
+    height: 92px; /* Google logosu ölçüleri */
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Google arama kutusundaki boşluk */
+}
+
+input[type="text"] {
+    width: 550px; /* Google arama kutusu genişliği */
+    height: 36px; /* Google arama kutusu yüksekliği */
+    padding: 10px;
+    border: 1px solid #dfe1e5; /* Google arama kutusu kenarlık rengi */
+    border-radius: 24px; /* Google arama kutusu kenarlık yuvarlaklığı */
+    outline: none;
+    font-size: 16px;
+}
+
+.search-buttons {
+    display: flex;
+    margin-top: 10px; /* Düğmeler arasındaki boşluk */
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+    border: 1px solid #dfe1e5; /* Düğme kenarlık rengi */
+    border-radius: 8px; /* Düğme kenarlık yuvarlaklığı */
+}
+
+/* Düğme renkleri için sınıflar */
+.search-button {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.lucky-button {
+    background-color: #34a853;
+    color: #fff;
+}
